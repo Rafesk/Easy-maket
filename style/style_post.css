@@ -1,0 +1,75 @@
+.posts{
+    color:#F4F6CA;
+    padding: 20px;
+}
+.posts p{
+    
+    color:#F4F6CA;
+    font-size: 18px;
+    text-decoration: bold;
+}
+.posts h1, .posts h2, .posts h3, .posts h4, .posts h5, .posts h6{
+    text-align: center;
+}
+.posts h1{font-size:30px;}
+.posts h2{font-size:28px;}
+.posts h3{font-size:26px;}
+.posts h4{font-size:24px;}
+.posts h5{font-size:22px;}
+.posts h6{font-size:20px;}
+.posts a{
+    text-decoration: none;
+    color:#F4F6CA;
+}
+.posts a:hover{
+    color: #CEA9BB;
+}
+.posts ol, .posts ul{
+    font-size:15px;
+}
+.posts th{
+    font-size: 18px;
+    padding: 10px;
+}
+.posts table{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    text-align: center;
+    border-spacing: 2px;
+    background: #ECE9E0;
+    color: #656665;
+    border: 16px solid #ECE9E0;
+    border-radius: 20px;
+    height: 250px;
+    width: 500px;
+    overflow-y: scroll;
+    display: block;
+    font-size: 15px;
+}
+.posts td{
+    background: #F5D7BF;
+    padding: 10px;  
+}
+@media screen and (min-width:320px) and (max-width:790px){
+    .posts p, .posts a{
+        font-size: 12px;
+    }
+    .posts h1{font-size:26px;}
+    .posts h2{font-size:24px;}
+    .posts h3{font-size:22px;}
+    .posts h4{font-size:20px;}
+    .posts h5{font-size:18px;}
+    .posts h6{font-size:16px;}
+    .posts ol, .posts ul{
+        font-size:11px;
+    }
+    .posts th{
+        font-size: 12px;
+    }
+    .posts td{
+        font-size: 11px;
+    }
+    .posts table{
+        height: 150px;
+        width: 400px;
+    }
+}

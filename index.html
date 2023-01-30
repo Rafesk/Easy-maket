@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>MYWEBSITE</title>
+    <link href="./style/style.css" rel="stylesheet" type="text/css" />
+    <script src="./function/jQuery.js"></script>
+    <script src="./function/fun.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="with_header">
+        <header class="header">
+            <a href="./index.html" alt="">MYWEBSITE</a>
+		<form id="form1">
+            <input type="text" name="search" id="search" placeholder="Поиск..." />
+            </form>
+        </header>
+    </section>
+    <section class="welcome_web">
+        <div class="welc ots">
+            <h2 class="welcome_txt">Добро пожаловать!</h2>
+        </div>
+    </section>
+    <section class="welcome_description">
+        <div class="description ots">
+            <div class="description_img">
+                <img src="./img/pixel.gif" />
+            </div>
+            <div class="description_right">
+                <div class="sliders" id="sliders">
+                        <div class="slider slider_off" style="background-image: url(./img/1.jpg);"></div>
+                        <div class="slider slider_off" style="background-image: url(./img/2.jpg);"></div>
+                        <div class="slider slider_off" style="background-image: url(./img/3.jpg);"></div>
+                        <div class="slider slider_off" style="background-image: url(./img/4.jpg);"></div>
+                        <div class="slider slider_off" style="background-image: url(./img/5.jpg);"></div>
+                        <div class="slider slider_on" style="background-image: url(./img/6.jpg);"></div>
+                        <span class="button button_left" onclick="begin('sliders','l');">&lt;</span>
+                        <span class="button button_right" onclick="begin('sliders','r');">&gt;</span>
+                </div>
+                <div class="description_txt">
+                    <h3>Данный сайт содержит в себе небольшие статьи/фотографии.</h3>
+                    <a href="./catalog_post.html" class="next"> Перейти к постам</a>
+                    <br><br>
+                    <a href="./catalog_img.html" class="next"> Перейти к фотографиям</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer_around">
+        <footer class="footer ots">
+            <a href="./index.html" alt="">MYWEBSITE</a>
+            <p>&copy;Балалаева К.М.</p>
+        </footer>
+    </section>
+</body>
+</html>
